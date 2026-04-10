@@ -78,6 +78,7 @@ CTAs
 CTR
 Ctrl
 ctx
+Cursor
 cURL
 debounce[ds]?
 (?i)deduplic(ated?|ation)
@@ -205,6 +206,7 @@ md
 MDX
 measurementId
 (?i)Memoize
+Mermaid
 (?i)metadata
 metatags?
 middleware
@@ -326,6 +328,7 @@ siteId
 (?i)sitemaps?
 skimmable
 SLA
+Sequoia
 Slack
 slugified
 sourcemaps?
