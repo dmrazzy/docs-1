@@ -334,6 +334,7 @@ SAML
 sanitization
 scannability
 scannable
+Scala
 scrollbar
 scss
 SDK
