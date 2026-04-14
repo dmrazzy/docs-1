@@ -85,14 +85,11 @@
                     "pages": [
                       "editor/git-essentials",
                       "editor/pages",
-                      "editor/inline-ai",
                       "editor/media",
                       "editor/navigation",
                       "editor/configurations",
                       "editor/live-preview",
                       "editor/collaborate",
-                      "editor/comments",
-                      "editor/suggestions",
                       "editor/publish",
                       "editor/keyboard-shortcuts"
                     ]
@@ -1783,6 +1780,18 @@
     {
       "source": "/zh/api-reference/*",
       "destination": "/zh/api/*"
+    },
+    {
+      "source": "/editor/inline-ai",
+      "destination": "/editor/index"
+    },
+    {
+      "source": "/editor/comments",
+      "destination": "/editor/index"
+    },
+    {
+      "source": "/editor/suggestions",
+      "destination": "/editor/index"
     },
     {
       "source": "/editor/getting-started",
