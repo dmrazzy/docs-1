@@ -288,6 +288,7 @@ PDF
 PDFs
 (?i)perplexity
 PHP
+pipeable
 Pirsch
 (?i)plausible
 Playfair
@@ -416,6 +417,7 @@ TOML
 topbar
 transpilation
 TrueType
+TSV
 tsx
 txt
 TTF
