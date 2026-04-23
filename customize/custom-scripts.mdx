@@ -332,6 +332,14 @@ Multiple instances of these elements can appear on a page. Use these as `value` 
     - `[data-badge]` — Any badge element.
     - `[data-badge][data-color="blue"]` — Badge filtered by color.
     - `[data-badge][data-size="sm"]` — Badge filtered by size.
+
+    Current path (`data-current-path`):
+
+    Use `data-current-path` to style custom CSS on specific pages or subpaths.
+
+    - `html[data-current-path="/"]` — Matches the root page.
+    - `html[data-current-path="/quickstart"]` — Matches a specific page.
+    - `html[data-current-path^="/api-reference/"]` — Matches any page under a section.
   </Accordion>
 </AccordionGroup>
 
