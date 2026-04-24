@@ -5,6 +5,50 @@ rss: true
 noindex: true
 ---
 
+<Update label="April 24, 2026" tags={["New releases", "Improvements"]} rss={{ title: "Preview Deployment API, Git onboarding redesign, web editor improvements, and more" }}>
+
+  ## Preview Deployment API
+
+  A public API for generating preview deployments is now available. Use it to trigger previews from your own tooling—useful when your Git workflow doesn't map cleanly to standard branch-based preview triggers. See [Trigger preview deployment](/api/preview/trigger) for more details.
+
+  ## Git onboarding and settings redesign
+
+  The Git settings page has been redesigned with a new layout. Mintlify-hosted customers migrating to their own GitHub or GitLab repository now get a step-by-step flow that walks through the full migration process.
+
+  ## Web editor improvements
+
+  The web editor now shows the full Git diff for the current branch, including changes already pushed. Review everything modified in one place before publishing or opening a pull request.
+
+  Changes now persist locally, so edits made while offline are preserved and synced automatically when your connection returns.
+
+  - **Emoji picker**: Type <kbd>:</kbd> to open an emoji picker and insert emojis inline.
+  - **Accordion reordering**: Drag and drop to rearrange accordions inside an [accordion group](/components/accordions) without editing MDX.
+  - **Editable color component**: Update [color](/components/color) swatches directly in the editor without editing MDX.
+  - **SVG file upload**: Upload SVG files from the editor configuration view.
+
+  ## Redirect destination checks
+
+  The [mint broken-links](/cli/commands#mint-broken-links) command now supports an option to validate redirect destinations. Catch redirects that point to missing pages before they reach production.
+
+  ## Improvements
+
+  - Pages expose a `data-current-path` HTML attribute for easier custom scripting and analytics targeting.
+  - Hidden pages now respect the `seo.indexing: all` setting so you can still index specific pages that are excluded from navigation.
+
+  ## Bug fixes
+
+  - Fixed Git source privacy validation so private repositories are correctly detected after saving Git settings.
+  - Fixed a parsing issue where a single `$` was treated as inline math. Dollar signs now render as plain text unless wrapped in math delimiters.
+  - Fixed broken-links false positives on API reference pages generated from OpenAPI specs.
+  - Fixed OpenAPI endpoint resolution when paths contain trailing slashes.
+  - Fixed the `mint` CLI version resolving incorrectly when run via `npx`.
+  - Fixed the create PR button not re-enabling after saving changes on a branch in the editor.
+  - Fixed symlink handling for skill files stored outside the content directory.
+  - Fixed the Luma integration table of contents position.
+  - Fixed deployment URLs not including the page href for direct links.
+
+</Update>
+
 <Update label="April 17, 2026" tags={["New releases", "Improvements"]} rss={{ title: "Visibility component, MCP filesystem access, agent feedback, Git setup wizard, and more" }}>
 
   ## Visibility component
