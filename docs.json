@@ -110,6 +110,7 @@
                       "agent/use-cases"
                     ]
                   },
+                  "ai/mintlify-mcp",
                   {
                     "group": "Components",
                     "root": "components/index",
