@@ -104,13 +104,23 @@
                       "agent/slack",
                       "agent/linear",
                       "agent/notion",
-                      "agent/workflows",
                       "agent/customize",
                       "agent/effective-prompts",
                       "agent/use-cases"
                     ]
                   },
                   "ai/mintlify-mcp",
+                  {
+                    "group": "Workflows",
+                    "tag": "Beta",
+                    "root": "workflows/index",
+                    "pages": [
+                      "workflows/index",
+                      "workflows/enable",
+                      "workflows/create",
+                      "workflows/manage"
+                    ]
+                  },
                   {
                     "group": "Components",
                     "root": "components/index",

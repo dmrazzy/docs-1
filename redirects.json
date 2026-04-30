@@ -397,7 +397,15 @@
     },
     {
       "source": "/agent/suggestions",
-      "destination": "/agent/workflows"
+      "destination": "/workflows/index"
+    },
+    {
+      "source": "/agent/workflows",
+      "destination": "/workflows/index"
+    },
+    {
+      "source": "/agent/workflows/:page",
+      "destination": "/workflows/:page"
     },
     {
       "source": "/agent/quickstart",
