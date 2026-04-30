@@ -81,20 +81,20 @@
                 "icon": "pen-line",
                 "pages": [
                   {
-                    "group": "Web editor",
+                    "group": "Editor",
+                    "tag": "New",
                     "root": "editor/index",
                     "pages": [
-                      "editor/git-essentials",
-                      "editor/pages",
-                      "editor/media",
-                      "editor/navigation",
-                      "editor/configurations",
+                      "editor/tutorial",
+                      "editor/branching-and-publishing",
                       "editor/live-preview",
-                      "editor/collaborate",
-                      "editor/publish",
-                      "editor/keyboard-shortcuts"
+                      "editor/pages",
+                      "editor/navigation",
+                      "editor/keyboard-shortcuts",
+                      "editor/configurations"
                     ]
                   },
+                  "editor-classic",
                   "create/text",
                   "create/code",
                   {

@@ -418,5 +418,17 @@
     {
       "source": "/settings/global",
       "destination": "/organize/settings"
+    },
+    {
+      "source": "/editor/git-essentials",
+      "destination": "/editor/branching-and-publishing"
+    },
+    {
+      "source": "/editor/publish",
+      "destination": "/editor/branching-and-publishing"
+    },
+    {
+      "source": "/editor/media",
+      "destination": "/editor/pages"
     }
   ]
