@@ -38,12 +38,16 @@ To host your documentation on a custom domain:
 2. Create a new DNS record with the following values:
 
 ```text
-CNAME | docs | cname.mintlify-dns.com.
+CNAME | docs | cname.mintlify.builders
 ```
 
 <Tip>
   Each domain provider has different ways to add DNS records. Refer to your domain provider's documentation for specific instructions.
 </Tip>
+
+<Warning>
+  If you migrate an existing domain and want zero downtime, add the verification `TXT` records before updating your `CNAME`. Then wait until SSL/TLS certificates pre-provision before cutting over. Switching the `CNAME` before certificates are issued causes HTTPS requests to fail until provisioning completes.
+</Warning>
 
 ### DNS propagation
 
